@@ -5,9 +5,9 @@ Create a lastName variable. Set it to your last name.
 Create a fullName variable. Set it by concatenating firstName and lastName with a space between. (Or use a template literal.) (Don’t know what concatenate means? Google “JavaScript concatenate.”)
 Log the fullName variable to the console.
 */
-let firstName = "Amanda";
-let lastName = "Mandell";
-fullName = firstName.concat(" ", lastName);
+const firstName = "Amanda";
+const lastName = "Mandell";
+const fullName = firstName.concat(" ", lastName);
 console.log(fullName);
 
 /*
@@ -28,8 +28,7 @@ Create a colors variable. Set it to an array of the colors of the rainbow. (Each
 Write a for loop that counts from 1 to 5 and logs each number to the console.
 Write a for loop that counts from 0 to 4 and logs each number to the console.
 */
-
-javaScriptIsCool = "true";
+const javaScriptIsCool = "true";
 colors = ["red", "orange", "yellow", "green", "blue", "purple"];
 for (i=1; i<6; i++){
     console.log(i);
